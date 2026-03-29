@@ -110,3 +110,36 @@ footer{
     text-shadow: 2px 2px 2px #000000;
     letter-spacing: 2px;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        height: 400px;
+        background-position: center;
+    }
+
+    .hero-content h1, 
+    .hero-content p {
+        margin-right: 0; 
+        font-size: 28px;
+    }
+
+    .hero nav ul {
+        margin: 20px 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .hero nav li {
+        margin: 5px;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    .btn {
+        width: auto;
+        margin-left: 0;
+        text-align: center;
+    }
+}
